@@ -56,9 +56,6 @@ class _MyAppState extends State<MyApp> {
   }
 
   void _answerQuestion(int score) {
-    // var aBool = true;
-    // aBool = false;
-
     _totalScore += score;
 
     setState(() {
